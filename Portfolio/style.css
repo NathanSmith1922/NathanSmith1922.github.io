@@ -108,7 +108,7 @@ body {
   content:'';
   position: absolute;
   z-index:-1;
-  bottom:-5%;
+  bottom:-2%;
   left: 10%;
   width:300px;
   height:300px;
@@ -173,4 +173,43 @@ body {
 } 
 .projects-image-box-right:hover > h4, .projects-image-box-left:hover > h4 {
   visibility: visible;
+}
+
+/*    Skills    */
+
+.skills-container {
+  max-width: 840px;
+  margin: 50px auto;
+  margin-bottom: 20%;
+}
+.skills-container > h1 {
+  color: white;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.skills-image {
+  width: 100px;
+  height: 100px;
+  padding: 19%;
+}
+.skills-box > p {
+  color: #818589;
+  text-align: left;
+}
+.skills-title {
+  font-family: "eurostile";
+  color: #F76236;
+}
+
+.contact-container {
+  max-width: 840px;
+  margin: 50px auto; 
+  color: white;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
