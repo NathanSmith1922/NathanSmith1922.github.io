@@ -13,6 +13,8 @@ body {
   font-family: 'Roboto Slab';
 }
 
+/*    HEADER    */
+
 .header-box {
   width: 100%;
   box-shadow: 0 10px 5px -2px black;
@@ -47,6 +49,7 @@ body {
   text-align: center;
 }
 
+/*    INTRO    */
 
 .intro-container {
   max-width: 1000px;
@@ -72,11 +75,12 @@ body {
   margin-top: 10px;
 }
 
+/*    ABOUT ME    */
 
 .about-container {
   max-width: 840px;
   margin: 50px auto;
-  margin-bottom: 80%;
+  margin-bottom: 20%;
 }
 .about-container > h1 {
   color: white;
@@ -122,4 +126,51 @@ body {
 }
 .about-list-text {
   color: #818589;
+}
+
+/*    PROJECTS    */
+
+.projects-container {
+  max-width: 840px;
+  margin: 50px auto;
+  margin-bottom: 20%;
+}
+.projects-container > h1 {
+  color: white;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+.projects-image-box-right {
+	justify-self: right;
+	position: relative;
+}
+.projects-image-box-left {
+	justify-self: left;
+	position: relative;
+}
+.projects-image {
+  height: 300 px;
+  width: 300 px;
+  border-radius: 10%;
+  box-shadow: 0 20px 40px 0px rgba(100, 100, 100, .16);
+  transition: all ease-in-out .2s;
+}
+.projects-image:hover {
+  box-shadow: 0 40px 80px 0px rgba(169, 169, 169, .16);
+  filter: brightness(0.65);
+}
+.projects-image-box-right > h4, .projects-image-box-left > h4 {
+	position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  visibility: hidden;
+} 
+.projects-image-box-right:hover > h4, .projects-image-box-left:hover > h4 {
+  visibility: visible;
 }
