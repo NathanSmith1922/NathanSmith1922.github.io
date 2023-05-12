@@ -12,113 +12,119 @@
     <div class="header-box">
       <div class="header-container">
         <div class="header-grid">
-          <div class="header-item"><span class="header-number">01.</span> about</div>
-          <div class="header-item"><span class="header-number">02.</span> projects</div>
-          <div class="header-item"><span class="header-number">03.</span> skills</div>
-          <div class="header-item"><span class="header-number">04.</span> contact</div>
+          <div class="header-item" id="about-button"><span class="header-number">01.</span> about</div>
+          <div class="header-item" id="projects-button"><span class="header-number">02.</span> projects</div>
+          <div class="header-item" id="skills-button"><span class="header-number">03.</span> skills</div>
+          <div class="header-item" id="contact-button"><span class="header-number">04.</span> contact</div>
           <div class="resume">resume</div>
         </div>
       </div>
     </div>
 
-    
-    <div class = "intro-container">
-      <div class="intro">
-        <h1 class = "intro-name">Hi, I'm Nathan.</h1>
-        <h2 class = "intro-study">UNSW Computer Science & Economics Student</h2>
-        <div class = "quote-container">
-          <p>This can just be a little introduction about myself, without my value or anything to really add, it's just something present here to look pretty.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="about-container">
-      <h1><span class= "header-number">01. </span>About Me</h1>
-      <div class="about-grid">
-        <div class="about-text-box">
-          <p>Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-          </p>
-          <p>Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-            Some information about myself and what I like
-          </p>
-          <div class="about-list-grid">
-            <ul>
-              <li><span class="about-list-text">pain</span></li>
-              <li><span class="about-list-text">pain</span></li>
-              <li><span class="about-list-text">pain</span></li>
-            </ul>
-            <ul>
-              <li><span class="about-list-text">pain</span></li>
-              <li><span class="about-list-text">pain</span></li>
-              <li><span class="about-list-text">pain</span></li>
-            </ul>
+    <section>
+      <div class = "intro-container"">
+        <div class="intro">
+          <h1 class = "intro-name">Hi, I'm Nathan.</h1>
+          <h2 class = "intro-study">UNSW Computer Science & Economics Student</h2>
+          <div class = "quote-container">
+            <p>This can just be a little introduction about myself, without my value or anything to really add, it's just something present here to look pretty.</p>
           </div>
         </div>
-        
-        <div class="about-image-box">
-          <img class="profile-image" src="images/profile-picture.jpg"/>
-        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="projects-container">
-      <h1><span class="header-number">02. </span>Projects</h1>
-      <div class="projects-grid">
-        <div class="projects-image-box-right">
-          <img class="projects-image" src="Images/project-1.jpg" />
-          <h4>PROJECT 1</h4>
-        </div>
-        <div class="projects-image-box-left">
-          <img class="projects-image" src="Images/project-2.jpg" />
-          <h4>PROJECT 2</h4>
-        </div>
-        <div class="projects-image-box-right">
-          <img class="projects-image" src="Images/project-3.jpg" />
-          <h4>PROJECT 3</h4>
-        </div>
-        <div class="projects-image-box-left">
-          <img class="projects-image" src="Images/project-4.jpg" />
-          <h4>PROJECT 4</h4>
+    <section class="hidden">
+      <div class="about-container" id="about-section">
+        <h1><span class= "header-number">01. </span>About Me</h1>
+        <div class="about-grid">
+          <div class="about-text-box">
+            <p>Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+            </p>
+            <p>Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+              Some information about myself and what I like
+            </p>
+            <div class="about-list-grid">
+              <ul>
+                <li><span class="about-list-text">pain</span></li>
+                <li><span class="about-list-text">pain</span></li>
+                <li><span class="about-list-text">pain</span></li>
+              </ul>
+              <ul>
+                <li><span class="about-list-text">pain</span></li>
+                <li><span class="about-list-text">pain</span></li>
+                <li><span class="about-list-text">pain</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-image-box">
+            <img class="profile-image" src="images/profile-picture.jpg"/>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section>
+      <div class="projects-container" id="projects-section">
+        <h1><span class="header-number">02. </span>Projects</h1>
+        <div class="projects-grid">
+          <div class="projects-image-box-right hidden-grid">
+            <img class="projects-image" src="Images/project-1.jpg" />
+            <h4>PROJECT 1</h4>
+          </div>
+          <div class="projects-image-box-left hidden-grid">
+            <img class="projects-image" src="Images/project-2.jpg" />
+            <h4>PROJECT 2</h4>
+          </div>
+          <div class="projects-image-box-right hidden-grid">
+            <img class="projects-image" src="Images/project-3.jpg" />
+            <h4>PROJECT 3</h4>
+          </div>
+          <div class="projects-image-box-left hidden-grid">
+            <img class="projects-image" src="Images/project-4.jpg" />
+            <h4>PROJECT 4</h4>
+          </div>
+        </div>
+      </div>
+    </section>
     
-    <div class="skills-container">
-      <h1><span class="header-number">03. </span>Skills</h1>
-      <div class="skills-grid">
-        <div class="skills-box">
-          <img class="skills-image" src="Images/skills-blender.gif" />
-          <p><span class="skills-title">BLENDER: </span>some random text can go here</p>
-        </div>
-        <div class="skills-box">
-          <img class="skills-image" src="Images/skills-ue.gif" />
-          <p><span class="skills-title">UNREAL 5: </span>some random text can go here</p>
-        </div>
-        <div class="skills-box">
-          <img class="skills-image" src="Images/skill-c.gif" />
-          <p><span class="skills-title">C: </span>some random text can go here</p>
-        </div>
-        <div class="skills-box">
-          <img class="skills-image" src="Images/skills-js.gif" />
-          <p><span class="skills-title">JAVASCRIPT: </span>some random text can go here</p>
-        </div>
-        <div class="skills-box">
-          <img class="skills-image" src="Images/skill-python.gif" />
-          <p><span class="skills-title">PYTHON: </span>some random text can go here</p>
+    <section>
+      <div class="skills-container" id="skills-section">
+        <h1><span class="header-number">03. </span>Skills</h1>
+        <div class="skills-grid">
+          <div class="skills-box hidden-grid">
+            <img class="skills-image" src="Images/skills-blender.gif" />
+            <p><span class="skills-title">BLENDER: </span>some random text can go here</p>
+          </div>
+          <div class="skills-box hidden-grid">
+            <img class="skills-image" src="Images/skills-ue.gif" />
+            <p><span class="skills-title">UNREAL 5: </span>some random text can go here</p>
+          </div>
+          <div class="skills-box hidden-grid">
+            <img class="skills-image" src="Images/skill-c.gif" />
+            <p><span class="skills-title">C: </span>some random text can go here</p>
+          </div>
+          <div class="skills-box hidden-grid">
+            <img class="skills-image" src="Images/skills-js.gif" />
+            <p><span class="skills-title">JAVASCRIPT: </span>some random text can go here</p>
+          </div>
+          <div class="skills-box hidden-grid">
+            <img class="skills-image" src="Images/skill-python.gif" />
+            <p><span class="skills-title">PYTHON: </span>some random text can go here</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact-section">
       <div class="contact-grid">
         <div class="link-box">
           <h1><span class="header-number">04. </span>Links</h1>
@@ -130,6 +136,6 @@
     </div>
 
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
