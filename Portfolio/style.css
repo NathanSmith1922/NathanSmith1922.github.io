@@ -61,10 +61,10 @@ body {
   padding-right: 10%;
 }
 .header-image {
-  height: 90px;
-  width: 180px;
+  width: 70px;
+  aspect-ratio: 1;
   float: left;
-  padding: 10px 0;
+  padding: 20px 0;
   padding-left: 10%;
 }
 .header-mobile-toggle {
@@ -78,7 +78,7 @@ body {
 .header-item {
   display: inline-block;
   margin-left: 30px;
-  line-height: 100px;
+  line-height: 120px;
   position: relative; 
 }
 .item-hover:hover {
